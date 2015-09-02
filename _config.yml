@@ -1,0 +1,45 @@
+# Site settings
+title: Anten Skrabec's Blog
+email: anten@cebarks.net
+description: > # this means to ignore newlines until "baseurl:"
+  My personal website, blog and project hosting site.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://cebarks.net" # the base hostname & protocol for your site
+
+# User settings
+username: Anten Skrabec
+user_description: High School Student and Hobby Software Developer
+user_title: High School Student and Hobby Software Developer
+email: anten@cebarks.net
+twitter_username: cebarks
+github_username:  cebarks
+gplus_username:  cebarks
+disqus_username: cebarks
+
+# Build settings
+markdown: kramdown
+highlighter: pygments
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+  - title: Tags
+    url: /tags
+  - title: About Me
+    url: /about
+  - title: My Skill Set
+    url: /my-skill-set
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
